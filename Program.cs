@@ -91,8 +91,8 @@
 // 1 -> нет
 
 //--------------------------------------------------------
-Console.WriteLine("ведите число от 1 до 7: ");
-int N = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("ведите число от 1 до 7: ");
+// int N = Convert.ToInt32(Console.ReadLine());
 
 // int sunday = 1;
 // int monday = 2;
