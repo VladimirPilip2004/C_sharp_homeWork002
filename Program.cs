@@ -39,29 +39,29 @@
 
 //1-й способ:
 
-Console.WriteLine("ведите любое целое число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("ведите любое целое число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-if (number < 100)
-{
-    Console.WriteLine($"Ошибка -1. Третьей цифры нет. Введите число больше двух знаков");
-}
+// if (number < 100)
+// {
+//     Console.WriteLine($"Ошибка -1. Третьей цифры нет. Введите число больше двух знаков");
+// }
 
-if (number > 99 && number < 1000)
-{
-    //number = number / 10;
-    //number = number / 10;
-    Console.WriteLine(number % 10);
-}
+// if (number > 99 && number < 1000)
+// {
+//     //number = number / 10;
+//     //number = number / 10;
+//     Console.WriteLine(number % 10);
+// }
 
-if (number > 999)
-{
-    while (number > 999)
-    {
-        number = number / 10;
-    }
-        Console.WriteLine(number % 10); 
-}
+// if (number > 999)
+// {
+//     while (number > 999)
+//     {
+//         number = number / 10;
+//     }
+//         Console.WriteLine(number % 10); 
+// }
 
 // while (number.Length == 3)
 // {
@@ -90,44 +90,17 @@ if (number > 999)
 // 7 -> да
 // 1 -> нет
 
-// Console.WriteLine("ведите число от 1 до 7: ");
-// bool N = Console.ReadLine();
-
-// // int Sunday = 1;
-// // int Monday = 2;
-// // int Tuesday = 3;
-// // int Wensday = 4;
-// // int Thursday = 5;
-// // int Friday = 6;
-// // int Saturday = 7;
-
-// if (N<=1 && N<=7)
-// {
-//     if(N == 1 || N == 7)
-//     {
-//         Console.WriteLine("{N}-й день является выходным");
-//     }
-//     else
-//     {
-//         Console.WriteLine("{N}-й день является будним");
-//     }
-// }
-// else
-// {
-//     Console.WriteLine("ведите число от 1 до 7: ");
-// }
-
 //--------------------------------------------------------
-// Console.WriteLine("ведите число от 1 до 7: ");
-// int N = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("ведите число от 1 до 7: ");
+int N = Convert.ToInt32(Console.ReadLine());
 
-// // int sunday = 1;
-// // int monday = 2;
-// // int tuesday = 3;
-// // int wensday = 4;
-// // int thursday = 5;
-// // int friday = 6;
-// // int suturday = 7;
+// int sunday = 1;
+// int monday = 2;
+// int tuesday = 3;
+// int wensday = 4;
+// int thursday = 5;
+// int friday = 6;
+// int suturday = 7;
 
 // if (N>=1 && N<=7)
 // {
